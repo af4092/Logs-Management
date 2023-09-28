@@ -33,6 +33,14 @@ Docker multiple containers logs management into one *.json file
        # Run the message sender
           CMD ["node", "sender.js"]
        ```
+3. After making dockerfiles, we build `Docker image` from Dockerfiles with the following commands:
+
+   ```
+   $ docker build -t server:v0.1 -f Dockerfile.server .
+   $ docker build -t sender:v0.1 -f Dockerfile.sender .
+   ```
+   <img width="700" alt="image" src="https://github.com/af4092/Logs-Management/assets/24220136/5327a988-4ba0-44fa-81bf-dab47a16cd61">
+
 
 ## [Reference]()
 
