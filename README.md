@@ -44,8 +44,6 @@ Docker multiple containers logs management into one *.json file
          <img src="https://github.com/af4092/Logs-Management/assets/24220136/5327a988-4ba0-44fa-81bf-dab47a16cd61.png" alt="Image">
       </p>
       
-   <img width="700" alt="image" src="https://github.com/af4092/Logs-Management/assets/24220136/5327a988-4ba0-44fa-81bf-dab47a16cd61">
-
 
 ## [Reference]()
 
