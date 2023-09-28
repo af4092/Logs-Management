@@ -7,6 +7,7 @@ Docker multiple containers logs management into one *.json file
 2. Then we make `Dockerfile` for bothe `sender.js` and `server.js` applications.  
 
      - `Dockerfile.server` is as following:
+       
        ```
         # Use a base image
          FROM node:latest
