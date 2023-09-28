@@ -4,7 +4,7 @@ Docker multiple containers logs management into one *.json file
 ## [Implementation](https://github.com/af4092/Logs-Management/tree/main/docker_logs_test)
 
 1. We first build two `node.js` source files one for `sender.js` which sends message to server and another one is `server.js` server which runs on `port:3001`.
-2. Then we make `Dockerfile` for bothe `sender.js` and `server.js` applications.  
+2. Then we make `Dockerfile` for both `sender.js` and `server.js` applications.  
 
      - `Dockerfile.server` is as following:
        
@@ -19,6 +19,19 @@ Docker multiple containers logs management into one *.json file
          EXPOSE 3001
         # Run the Node.js server
          CMD ["node", "server.js"]
+       ```
+       
+     - `Dockerfile.sender` is as following:
+  
+       ```
+       # Use a base image
+          FROM node:latest
+       # Set the working directory
+          WORKDIR /app
+       # Copy the sender file into the container
+          COPY sender.js .
+       # Run the message sender
+          CMD ["node", "sender.js"]
        ```
 
 ## [Reference]()
