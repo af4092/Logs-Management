@@ -1,0 +1,15 @@
+# Use a base image
+FROM node:latest
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the server file into the container
+COPY server.js .
+
+# Expose port 3001
+EXPOSE 3001
+
+# Run the Node.js server
+CMD ["node", "server.js"]
+

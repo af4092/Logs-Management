@@ -1,0 +1,12 @@
+# Use a base image
+FROM node:latest
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the sender file into the container
+COPY sender2.js .
+
+# Run the message sender
+CMD ["node", "sender2.js"]
+
