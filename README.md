@@ -72,7 +72,7 @@ Docker multiple containers logs management into one *.json file
 
 ```diff
 - To Do:
-- As you've seen currently logs are being gathered only for one container and other container
+- As you've seen currently logs are being gathered only for one container and other container logs are not being tracked. So script source should be reconfigured to handle the issue
 ```
 
 
