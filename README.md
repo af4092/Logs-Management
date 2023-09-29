@@ -70,7 +70,7 @@ Docker multiple containers logs management into one *.json file
       </p>
 
 
-`` `diff
+```diff
 - To Do:
 - As you've seen currently logs are being gathered only for one container and other container
 ```
