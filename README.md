@@ -55,6 +55,14 @@ Docker multiple containers logs management into one *.json file
          <img src="https://github.com/af4092/Logs-Management/assets/24220136/2eb0fcc3-270e-4b3b-a154-75082ed29842.png" alt="Image">
       </p>
 
+5. We write script file to collect Docker containers logs into one `*.json` file. After running previous images in the Docker containers, we run `collect_logs.sh` script with the following command:
+
+     ```
+     $ ./collect_logs.sh
+     # then we get following answer from the terminal
+     $ Logs collected and saved to logs.json
+     ```
+     
 
 ## [Reference]()
 
