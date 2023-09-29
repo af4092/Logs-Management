@@ -62,7 +62,13 @@ Docker multiple containers logs management into one *.json file
      # then we get following answer from the terminal
      $ Logs collected and saved to logs.json
      ```
-     
+
+6. Then we go inside the `logs.json` file to check the logs output:
+
+<p align="center">
+         <img src="https://github.com/af4092/Logs-Management/assets/24220136/5188f2aa-b0d7-4cca-ba22-10ce3c0ba502.png" alt="Image">
+      </p>
+
 
 ## [Reference]()
 
